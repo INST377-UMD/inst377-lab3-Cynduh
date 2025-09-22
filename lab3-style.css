@@ -1,0 +1,67 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bar {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    clear:both;
+    margin: 10px 0;
+}
+#main-nav {
+    background-color: blue;
+    padding: 1px;
+    margin: 25px 0;
+}
+#main-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: brown;
+}
+
+#main-nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+form {
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 15px;
+    float: left;
+    padding: 0px 20px 30px 20px; 
+    width: 60%;
+    margin: 10px 0;
+}
+aside {
+    background-color: cyan;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px; 
+    float: right;
+    width: 30%;
+    margin: 10px 0;
+}
+aside:hover{
+    background-color: purple;
+}
+.main-container{
+    width: 100%;
+}
+
+#input-name:focus{
+    width: 50%;
+}
